@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Stefan Hansen",
+    "section": "",
+    "text": "Jeg er ansat som lektor i biostatistik på Institut for Folkesundhed, Aarhus Universitet.\n\n\n\n2020–: Lektor, Sektion for biostatistik, Aarhus Universitet.\n2017–2020: Adjunkt, Sektion for biostatistik, Aarhus Universitet.\n2014–2017: Ph.d.-studerende, Sektion for biostatistik, Aarhus Universitet.\n2012–2014: Videnskabelig assistent, Sektion for biostatistik, Aarhus Universitet.\n\n\n\n\n\n2017: PhD i biostatistik, Aarhus Universitet.\n2012: MSc i statistik, Aarhus Universitet.\n\n\n\n\n\nKan hentes her.\n\n\n\n\n\nKan hentes her."
+  },
+  {
+    "objectID": "about.html#erfaring",
+    "href": "about.html#erfaring",
+    "title": "Stefan Hansen",
+    "section": "",
+    "text": "2020–: Lektor, Sektion for biostatistik, Aarhus Universitet.\n2017–2020: Adjunkt, Sektion for biostatistik, Aarhus Universitet.\n2014–2017: Ph.d.-studerende, Sektion for biostatistik, Aarhus Universitet.\n2012–2014: Videnskabelig assistent, Sektion for biostatistik, Aarhus Universitet."
+  },
+  {
+    "objectID": "about.html#uddannelse",
+    "href": "about.html#uddannelse",
+    "title": "Stefan Hansen",
+    "section": "",
+    "text": "2017: PhD i biostatistik, Aarhus Universitet.\n2012: MSc i statistik, Aarhus Universitet."
+  },
+  {
+    "objectID": "about.html#cv",
+    "href": "about.html#cv",
+    "title": "Stefan Hansen",
+    "section": "",
+    "text": "Kan hentes her."
+  },
+  {
+    "objectID": "about.html#liste-over-publikationer",
+    "href": "about.html#liste-over-publikationer",
+    "title": "Stefan Hansen",
+    "section": "",
+    "text": "Kan hentes her."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hjem",
+    "section": "",
+    "text": "Velkommen til min side."
+  },
+  {
+    "objectID": "shinyapps.html",
+    "href": "shinyapps.html",
+    "title": "Shiny apps",
+    "section": "",
+    "text": "Her kan du finde nogle Shiny apps som jeg har lavet til brug i undervisningssammenhænge."
+  },
+  {
+    "objectID": "shinyapps.html#selektion-i-lineære-regressionsmodeller",
+    "href": "shinyapps.html#selektion-i-lineære-regressionsmodeller",
+    "title": "Shiny apps",
+    "section": "Selektion i lineære regressionsmodeller",
+    "text": "Selektion i lineære regressionsmodeller\nHer illustreres effekten af selektion i lineære regressionsmodeller.\n\nFremgangsmåde:\n\nGenerér et datasæt under fanen Data generation. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y, spredningen på fejlleddet samt antallet af observationer.\nSelektionen styres via fanen Selection. Her kan man lave en selektion på både X- og Y-akse og selektionen foregår således, at det kun er observationer inden for det valgte område som medtages. Under Preferences skal man vælge Selection: On for at aktivere selektionen.\nI grafen vises de oprindelige datapunkter, de selekterede datapunkter samt de estimerede bedste rette linjer for de to datasæt. Estimaterne for begge datasæt findes også under fanen Results.\nFor store datasæt kan man med fordel justere gennemsigtigheden af punkterne på grafen via Transparency-funktionen under Preferences Man kan også helt vælge punkterne fra under Observations: Show/Hide."
+  },
+  {
+    "objectID": "shinyapps.html#målefejl-i-lineære-regressionsmodeller",
+    "href": "shinyapps.html#målefejl-i-lineære-regressionsmodeller",
+    "title": "Shiny apps",
+    "section": "Målefejl i lineære regressionsmodeller",
+    "text": "Målefejl i lineære regressionsmodeller\nHer illustreres effekten af forskellige typer af målefejl i lineære regressionsmodeller.\n\nFremgangsmåde:\n\nGenerér et datasæt under fanen Data generation. Her skal man specificere den antagede (sande) sammenhæng mellem X og Y, spredningen på fejlleddet samt antallet af observationer.\nMålefejlen(e) styres via fanerne Measurement error in X/Y. Her kan man introducere en målefejl i både X og Y. Under Measurement error (mean) og Measurement error (sd) introduceres en systematisk henholdsvis tilfældig målefejl på X/Y-værdien. Dette skal forstås således, at der lægges en normalfordelt variabel til den oprindelige måling med middelværdi mean og spredning sd. Under Preferences skal man vælge Measurement error: On for aktivere målefejlen(e).\nUnder Measurement error applied to X/Y-values kan det bestemmes om målefejlen kun skal pålægges en delmængde af observationerne.\nI grafen vises de oprindelige datapunkter, datapunkterne behæftet med målefejl samt de estimerede bedste rette linjer for de to datasæt. Estimaterne for begge datasæt findes også under fanen Results. Ønsker at man se effekten af målefejlen(e) for de enkelte observationer, kan man forbinde observationerne ved Connect observations: On under Preferences.\nFor store datasæt kan man med fordel justere på gennemsigtigheden af punkterne og/eller forbindelseslinjerne på grafen under Preferences via Transparency-funktionerne. Man kan også helt vælge punkterne fra under Observations: Show/Hide.\n\n\n\nTips:\n\nEn tilfældig (ikke-systematisk) målefejl svarer til mean = 0 og sd &gt; 0.\nEn systematisk målefejl svarer til mean != 0.\nEn systematisk målefejl hvor sd = 0 svarer til, at alle observationer pålægges den samme målefejl givet ved mean. Det er nok sjældent realistisk i praksis."
+  },
+  {
+    "objectID": "shinyapps.html#brug-af-splines-i-lineære-regressionsmodeller",
+    "href": "shinyapps.html#brug-af-splines-i-lineære-regressionsmodeller",
+    "title": "Shiny apps",
+    "section": "Brug af splines i lineære regressionsmodeller",
+    "text": "Brug af splines i lineære regressionsmodeller\nHer illustreres forskellen mellem at modellere sammenhængen mellem kontinuert udfald og kontinuert forklarende variabel som lineær, kategorisk og ved hjælp af splines.\n\nFremgangsmåde:\n\nGenerér et datasæt under fanen Data generation. Her skal man specificere den sande sammenhæng mellem X og Y. Dette kan gøres ved at vælge en af de prespecificerede muligheder eller man kan indtaste sammenhængen selv. Hvis man selv vil indtaste sammenhængen skal det specificeres som en funktion af x med R-syntax, eksempelvis: x*exp(sqrt(x)). Antallet af observationer, residualspredning samt maksimum og minimum x-værdi skal også specificeres.\nNår datasættet er genereret, vil tre modeller automatisk blive fittet, hvor X indgår lineært, kategorisk og via en restricted cubic spline.\nUnder fanen Model fitting kan man ændre antallet af kategorier eller selv specificere kategorierne og man kan ændre antallet af knuder eller selv sætte knudepunkterne i spline-fittet.\nUnder fanen Visuals kan man fravælge nogle af komponenterne i plottet."
+  },
+  {
+    "objectID": "shinyapps.html#qq-plot-generator",
+    "href": "shinyapps.html#qq-plot-generator",
+    "title": "Shiny apps",
+    "section": "QQ-plot generator",
+    "text": "QQ-plot generator\nHer genereres en række QQ-plots fra en normalfordeling med den valgte stikprøvestørrelse. Dette kan bruges til at sammenligne sit eget QQ-plot med disse for at vurdere om det er rimeligt at antage, at et givet datasæt kan beskrives med en normalfordeling."
+  },
+  {
+    "objectID": "consultancy.html",
+    "href": "consultancy.html",
+    "title": "Statistisk rådgivning",
+    "section": "",
+    "text": "Ønsker du statistisk rådgivning til dit projekt eller hjælp til specifikke statistiske analyser eller datamanagement, så send mig en mail på stefannh at outlook dot com\nJeg tilbyder blandt andet\n\nStatistisk rådgivning til udarbejdelse af analyseplan herunder valg af design, valg af statistiske analyser samt styrkeberegning.\nStatistisk analyse af konkrete data herunder udarbejdelse af tabeller og figurer.\nDatamanagement og oprensning af datasæt.\nUdvikling af interaktive web applikationer (Shiny apps).\nKurser i brugen af R, Quarto eller statistiske metoder.\n\nJeg arbejder primært i R, Stata og Python."
+  }
+]
